@@ -1,6 +1,27 @@
-# Project Name
+# Python Flask Owner-Pet Relationship App
 
-This project practices the use of relational database management.
+This Python Flask application showcases a one-to-many relationship between owners and their pets. The project structure includes folders such as `config`, `controllers`, `models`, `static`, `templates`, and a `.gitignore` file. It utilizes pipenv for dependency management.
+
+### Features:
+
+* **Get All:** Retrieve all owners and their associated pets.
+* **Save:** Save new owners and their pets into the database.
+* **Get One:** Retrieve details of a specific owner and their pets.
+
+### Project Structure:
+
+* **config:** Configuration settings for the application.
+* **controllers:** Contains the logic for handling requests.
+* **models:** Defines data models and database schema.
+* **static:** Stores static files like CSS, JavaScript, or images.
+* **templates:** Contains HTML templates for rendering views.
+
+### Setup Instructions:
+
+1. Clone the repository.
+2. Install dependencies using `pipenv install`.
+3. Run the application using `python server.py` (or `python3 server.py`)
+4. More details can be found under [Getting Started](#getting-started)
 
 ## Getting Started
 
